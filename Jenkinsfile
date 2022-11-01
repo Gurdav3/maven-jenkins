@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent any // means run on any machine that is available to Jenkins
   tools {
         maven "M3" 
    }
